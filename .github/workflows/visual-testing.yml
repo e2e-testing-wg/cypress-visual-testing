@@ -1,6 +1,6 @@
 name: End-to-end Visual Testing 
 on:
-  push:
+  pull_request:
     branches: [ main ]
 jobs:
   cypress-run:
