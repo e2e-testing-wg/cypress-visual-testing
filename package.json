@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/e2e-testing-wg/cypress-visual-testing#readme",
   "devDependencies": {
-    "cypress": "^12.3.0"
+    "@argos-ci/cli": "0.4.3",
+    "@argos-ci/cypress": "0.0.6",
+    "cypress": "12.3.0"
   }
 }

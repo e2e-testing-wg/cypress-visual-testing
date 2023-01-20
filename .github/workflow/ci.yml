@@ -1,0 +1,8 @@
+name: CI
+  build:
+    runs-on: ubuntu-latest
+      - uses: actions/checkout@v3
+
+      # 👉 Insert the steps required to take screenshots
+      - name: Upload screenshots to argos-ci.com
+        run: npx @argos-ci/cli upload ./screenshots
