@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/e2e-testing-wg/cypress-visual-testing/issues"
   },
-  "homepage": "https://github.com/e2e-testing-wg/cypress-visual-testing#readme"
+  "homepage": "https://github.com/e2e-testing-wg/cypress-visual-testing#readme",
+  "devDependencies": {
+    "cypress": "^12.3.0"
+  }
 }
