@@ -84,7 +84,7 @@ describe("example to-do app", () => {
     cy.get(".todo-list li").last().should("have.text", "Walk the dog");
 
     // 👇 That's how we take screenshot
-    cy.argosScreenshot("with two items");
+    cy.argosScreenshot("with two items", { overwrite: true });
   });
 
   it("can add new todo items", () => {
@@ -96,6 +96,6 @@ describe("example to-do app", () => {
       .should("have.text", newItem);
 
     //👇 Here, an other screenshot will be taken
-    cy.argosScreenshot("with an added item");
+    cy.argosScreenshot("with an added item", { overwrite: true });
   });
 });
