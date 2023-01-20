@@ -1,0 +1,25 @@
+{
+  "name": "cypress-visual-testing",
+  "version": "1.0.0",
+  "description": "Cypress Visual Testing e2e demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-testing-wg/cypress-visual-testing.git"
+  },
+  "keywords": [
+    "testing",
+    "e2e",
+    "cypress",
+    "visual"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/e2e-testing-wg/cypress-visual-testing/issues"
+  },
+  "homepage": "https://github.com/e2e-testing-wg/cypress-visual-testing#readme"
+}
