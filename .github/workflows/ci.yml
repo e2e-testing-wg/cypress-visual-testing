@@ -5,4 +5,4 @@ name: CI
 
       # 👉 Insert the steps required to take screenshots
       - name: Upload screenshots to argos-ci.com
-        run: npx @argos-ci/cli upload ./screenshots
+        run: npx @argos-ci/cli upload ./cypress/screenshots
