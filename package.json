@@ -4,7 +4,7 @@
   "description": "Cypress Visual Testing e2e demo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open:chrome": "cypress open --e2e --browser chrome"
   },
   "repository": {
     "type": "git",
